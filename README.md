@@ -1,4 +1,6 @@
-# ![DiffForge](https://raw.githubusercontent.com/anihatech/diffforge-releases/main/assets/logo-banner.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anihatech/diffforge-releases/main/assets/logo-banner.svg" alt="DiffForge" width="900"/>
+</p>
 
 # DiffForge — Community Edition
 
@@ -9,14 +11,14 @@
 
 ---
 
-## ⬇️ Download
+## 📥 Download
 
 | Platform | Installer | Version |
 |----------|-----------|---------|
-| 🪟 **Windows** (64-bit) | [DiffForge-Setup-1.0.0.exe](https://github.com/anihatech/diffforge-releases/releases/latest) | v1.0.0 |
-| 🍎 **macOS** | [DiffForge-1.0.0.dmg](https://github.com/anihatech/diffforge-releases/releases/latest) | v1.0.0 |
+| 🪟 **Windows** (64-bit) | [DiffForge Setup 1.0.1.exe](https://github.com/anihatech/diffforge-releases/releases/latest) | v1.0.1 |
+| 🍎 **macOS** | Coming soon | — |
 
-👉 **[Go to Releases page →](https://github.com/anihatech/diffforge-releases/releases)**
+➡️ **[Go to Releases page](https://github.com/anihatech/diffforge-releases/releases)**
 
 ---
 
@@ -30,10 +32,10 @@
 
 ---
 
-## 📦 Installation
+## 🚀 Installation
 
 ### Windows
-1. Download **`DiffForge-Setup-1.0.0.exe`** from the [Releases page](https://github.com/anihatech/diffforge-releases/releases/latest)
+1. Download **`DiffForge Setup 1.0.1.exe`** from the [Releases page](https://github.com/anihatech/diffforge-releases/releases/latest)
 2. Double-click the installer
 3. Click **Next** → choose your install folder → click **Install**
 4. Launch **DiffForge** from the Start Menu or Desktop shortcut
@@ -42,7 +44,7 @@
 > DiffForge is safe — SmartScreen shows this for new apps until they build download history.
 
 ### macOS
-1. Download **`DiffForge-1.0.0.dmg`** from the [Releases page](https://github.com/anihatech/diffforge-releases/releases/latest)
+1. Download **`DiffForge.dmg`** from the [Releases page](https://github.com/anihatech/diffforge-releases/releases/latest)
 2. Open the `.dmg` file
 3. Drag **DiffForge** into your **Applications** folder
 4. Launch from Applications or Spotlight (`⌘ + Space` → type `DiffForge`)
@@ -52,7 +54,7 @@
 
 ---
 
-## 🚀 How to Use
+## 📖 How to Use
 
 ### Compare Two Files
 1. Click the **Files** tab in the top toolbar
@@ -60,15 +62,26 @@
 3. Click the 📂 button on the **Right** side → browse and select your second file
 4. Differences appear instantly — **red** = removed, **green** = added, **yellow** = changed
 
+### Inline File Editing
+- Click **✏️ Edit Left** or **✏️ Edit Right** in the toolbar to edit a file directly inside DiffForge
+- Use the editing toolbar (Undo, Redo, Cut, Copy, Paste, Delete, Save) to manage your changes
+- The **Save** button highlights orange when there are unsaved changes
+
 ### Compare Two Folders
 1. Click the **Folders** tab in the top toolbar
 2. Click the 📂 button on the **Left** side → browse to your first folder
 3. Click the 📂 button on the **Right** side → browse to your second folder
 4. Click **Compare** — the folder tree shows:
-   - 🔴 **Diffs** — files that exist in both but have differences
-   - 🔵 **Left Only** — files that only exist on the left
-   - 🟢 **Right Only** — files that only exist on the right
-   - ⚪ **Same** — identical files
+   - 🔶 **Diffs** — files that exist in both but have differences
+   - ◀️ **Left Only** — files that only exist on the left
+   - ▶️ **Right Only** — files that only exist on the right
+   - ✅ **Same** — identical files
+
+### Right-Click Context Menu (Folders View)
+- **Open with Associated Application** — opens the file in its default OS app
+- **Edit in DiffForge** — opens the file in a dedicated Text Edit tab inside DiffForge
+- **Copy → Left / Copy → Right** — copy the file to the other side
+- **Move to Trash** — safely delete the file
 
 ### Using the Folder Browser
 - Click the 📂 icon in the path bar to open the built-in folder browser
@@ -92,19 +105,18 @@
 | **All** | Show all files |
 | **Diffs** | Show only files with differences |
 | **Same** | Show only identical files |
-| **← Only / → Only** | Show files unique to one side |
+| **◀ Only / ▶ Only** | Show files unique to one side |
 | **Expand All** | Expand the entire folder tree |
 | **Collapse All** | Collapse the entire folder tree |
-
-### Copy Files
-- Right-click any file in folder view for options to **Copy → Left** or **Copy → Right**
-- Use this to sync individual files between folders
 
 ---
 
 ## ✨ Features
 
 - ✅ Side-by-side file diff with line-level highlighting
+- ✅ Inline file editing with Undo/Redo/Save toolbar
+- ✅ Right-click context menu (Open with App, Edit in DiffForge, Copy, Move to Trash)
+- ✅ Single-file Text Edit tab for one-sided files
 - ✅ Folder comparison with recursive tree view
 - ✅ Built-in folder browser (no OS dialog required)
 - ✅ Quick Access sidebar (Desktop, Downloads, OneDrive, etc.)
