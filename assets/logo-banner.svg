@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280" width="1200" height="280">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- Subtle top glow strip -->
+  <rect width="1200" height="120" fill="url(#glow)"/>
+
+  <!-- ── Left mini panel ───────────────────────────────────── -->
+  <rect x="60" y="44" width="148" height="192" rx="10" fill="#162032" stroke="#1e3a5f" stroke-width="1.2"/>
+  <!-- Red header -->
+  <rect x="60" y="44" width="148" height="26" rx="10" fill="#7f1d1d"/>
+  <rect x="60" y="57" width="148" height="13" fill="#7f1d1d"/>
+  <circle cx="78" cy="57" r="4" fill="#fca5a5" opacity="0.55"/>
+  <circle cx="93" cy="57" r="4" fill="#fca5a5" opacity="0.35"/>
+  <!-- Removed rows -->
+  <rect x="74" y="90"  width="122" height="14" rx="3" fill="#7f1d1d" opacity="0.42"/>
+  <rect x="77" y="94"  width="90"  height="7"  rx="3" fill="#ef4444" opacity="0.9"/>
+  <rect x="74" y="114" width="122" height="14" rx="3" fill="#7f1d1d" opacity="0.42"/>
+  <rect x="77" y="118" width="68"  height="7"  rx="3" fill="#ef4444" opacity="0.9"/>
+  <rect x="74" y="152" width="122" height="14" rx="3" fill="#7f1d1d" opacity="0.42"/>
+  <rect x="77" y="156" width="102" height="7"  rx="3" fill="#ef4444" opacity="0.9"/>
+  <rect x="74" y="196" width="122" height="14" rx="3" fill="#7f1d1d" opacity="0.42"/>
+  <rect x="77" y="200" width="78"  height="7"  rx="3" fill="#ef4444" opacity="0.9"/>
+  <!-- Neutral rows left -->
+  <rect x="77" y="78"  width="72" height="7" rx="3" fill="#334155"/>
+  <rect x="77" y="136" width="88" height="7" rx="3" fill="#334155"/>
+  <rect x="77" y="174" width="60" height="7" rx="3" fill="#334155"/>
+  <rect x="77" y="218" width="68" height="7" rx="3" fill="#334155"/>
+
+  <!-- ── Right mini panel ──────────────────────────────────── -->
+  <rect x="228" y="44" width="148" height="192" rx="10" fill="#162032" stroke="#1e3a5f" stroke-width="1.2"/>
+  <!-- Green header -->
+  <rect x="228" y="44" width="148" height="26" rx="10" fill="#14532d"/>
+  <rect x="228" y="57" width="148" height="13" fill="#14532d"/>
+  <circle cx="246" cy="57" r="4" fill="#86efac" opacity="0.55"/>
+  <circle cx="261" cy="57" r="4" fill="#86efac" opacity="0.35"/>
+  <!-- Added rows -->
+  <rect x="242" y="90"  width="122" height="14" rx="3" fill="#14532d" opacity="0.52"/>
+  <rect x="245" y="94"  width="100" height="7"  rx="3" fill="#22c55e" opacity="0.9"/>
+  <rect x="242" y="114" width="122" height="14" rx="3" fill="#14532d" opacity="0.52"/>
+  <rect x="245" y="118" width="76"  height="7"  rx="3" fill="#22c55e" opacity="0.9"/>
+  <rect x="242" y="152" width="122" height="14" rx="3" fill="#14532d" opacity="0.52"/>
+  <rect x="245" y="156" width="112" height="7"  rx="3" fill="#22c55e" opacity="0.9"/>
+  <rect x="242" y="196" width="122" height="14" rx="3" fill="#14532d" opacity="0.52"/>
+  <rect x="245" y="200" width="88"  height="7"  rx="3" fill="#22c55e" opacity="0.9"/>
+  <!-- Neutral rows right -->
+  <rect x="245" y="78"  width="72" height="7" rx="3" fill="#334155"/>
+  <rect x="245" y="136" width="88" height="7" rx="3" fill="#334155"/>
+  <rect x="245" y="174" width="60" height="7" rx="3" fill="#334155"/>
+  <rect x="245" y="218" width="68" height="7" rx="3" fill="#334155"/>
+
+  <!-- ── Center Forge Spark ────────────────────────────────── -->
+  <circle cx="214" cy="140" r="32" fill="#f59e0b" opacity="0.08"/>
+  <circle cx="214" cy="140" r="20" fill="#f59e0b" opacity="0.12"/>
+  <!-- Vertical diamond -->
+  <path d="M214,112 L224,140 L214,168 L204,140 Z" fill="#f59e0b"/>
+  <!-- Horizontal diamond -->
+  <path d="M186,140 L214,130 L242,140 L214,150 Z" fill="#fbbf24"/>
+  <!-- Core -->
+  <circle cx="214" cy="140" r="11" fill="#fef9c3"/>
+  <circle cx="214" cy="140" r="6"  fill="white"/>
+
+  <!-- ── Brand text ────────────────────────────────────────── -->
+  <!-- DiffForge wordmark -->
+  <text x="430" y="148" font-family="'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="72" font-weight="700" letter-spacing="-2" fill="white" opacity="0.97">
+    DiffForge
+  </text>
+
+  <!-- Tagline -->
+  <text x="432" y="190" font-family="'Segoe UI', system-ui, -apple-system, sans-serif"
+        font-size="22" font-weight="400" letter-spacing="0.5" fill="#94a3b8">
+    Free desktop file &amp; folder comparison tool
+  </text>
+
+  <!-- Badge pills -->
+  <!-- Windows badge -->
+  <rect x="432" y="208" width="110" height="28" rx="14" fill="#1e3a5f" opacity="0.9"/>
+  <text x="487" y="227" font-family="'Segoe UI', system-ui, sans-serif" font-size="13"
+        font-weight="500" fill="#7dd3fc" text-anchor="middle">⊞  Windows</text>
+
+  <!-- macOS badge -->
+  <rect x="552" y="208" width="100" height="28" rx="14" fill="#1e3a5f" opacity="0.9"/>
+  <text x="602" y="227" font-family="'Segoe UI', system-ui, sans-serif" font-size="13"
+        font-weight="500" fill="#7dd3fc" text-anchor="middle"> macOS</text>
+
+  <!-- Free badge -->
+  <rect x="662" y="208" width="72" height="28" rx="14" fill="#14532d" opacity="0.9"/>
+  <text x="698" y="227" font-family="'Segoe UI', system-ui, sans-serif" font-size="13"
+        font-weight="600" fill="#4ade80" text-anchor="middle">Free</text>
+
+  <!-- Right decorative accent line -->
+  <rect x="1160" y="44" width="3" height="192" rx="1.5" fill="#f59e0b" opacity="0.25"/>
+</svg>
