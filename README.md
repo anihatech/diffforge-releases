@@ -15,7 +15,7 @@
 
 | Platform | Installer | Version |
 |----------|-----------|---------|
-| 🪟 **Windows** (64-bit) | [DiffForge Setup 1.0.1.exe](https://github.com/anihatech/diffforge-releases/releases/latest) | v1.0.1 |
+| 🪟 **Windows** (64-bit) | [DiffForge Setup 1.0.2.exe](https://github.com/anihatech/diffforge-releases/releases/latest) | v1.0.2 |
 | 🍎 **macOS** | Coming soon | — |
 
 ➡️ **[Go to Releases page](https://github.com/anihatech/diffforge-releases/releases)**
@@ -35,7 +35,7 @@
 ## 🚀 Installation
 
 ### Windows
-1. Download **`DiffForge Setup 1.0.1.exe`** from the [Releases page](https://github.com/anihatech/diffforge-releases/releases/latest)
+1. Download **`DiffForge Setup 1.0.2.exe`** from the [Releases page](https://github.com/anihatech/diffforge-releases/releases/latest)
 2. Double-click the installer
 3. Click **Next** → choose your install folder → click **Install**
 4. Launch **DiffForge** from the Start Menu or Desktop shortcut
